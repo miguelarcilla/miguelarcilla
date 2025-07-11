@@ -55,7 +55,7 @@ I ultimately applied a few code changes to clean things up, but the end result w
 
 ![Final Azure output, with PowerShell resources on the left and Terraform resources on the right](../assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/final_azure_output.png)
 
-The final step I would apply to this next would be exploring the [`null resource`](https://registry.terraform.io/providers/hashicorp/null/latest/docs) to handle SQL provisioning and code deployment, or taking it a step further by moving those instructions into a GitHub Action.
+The next step is to explore the [`null_resource`](https://registry.terraform.io/providers/hashicorp/null/latest/docs) provider for SQL provisioning and code deployment, or take it a step further by moving those instructions into a GitHub Action.
 
 ### Conclusion
 Through its detailed understanding of imperative deployment scripts and ability to reference best practices of programming languages, GitHub Copilot is a powerful tool that can accelerate the transformation of legacy provisioning scripts into declarative versions, making them more manageable, reusable, auditable. While knowledge of ARM, Terraform, or Bicep is still required to fine-tune the output, GitHub Copilot helps bridge knowledge gaps, massively reduces manual effort, and enables organizations to modernize their cloud operations with confidence.
