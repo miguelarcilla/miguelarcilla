@@ -35,7 +35,7 @@ Before generating any code, GitHub Copilot "prepared the workspace", understandi
 
 ![GitHub Copilot consults with Azure extension for best practices](../assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/copilot_azure_plugin.png)
 
-It then parsed the PowerShell script, recognizing and listing the Azure resources it understands will be created. 
+It then parsed the PowerShell script, recognizing and listing the Azure resources it understood would be created. 
 
 ![GitHub Copilot lists target resources before starting creation](../assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/copilot_resource_inventory.png)
 
