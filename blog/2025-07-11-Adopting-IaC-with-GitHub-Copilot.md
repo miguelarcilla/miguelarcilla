@@ -9,7 +9,7 @@ In this post, I’ll share some of the benefits of adopting IaC in favor of impe
 ### Imperative vs Declarative IaC
 Let's quickly differentiate the two:
 
-**Imperative tools**, like PowerShell and Bash scripts, describe *how* resources are provisioned. Its sequential nature makes it great for procedural tasks like runbooks. 
+**Imperative tools**, like PowerShell and Bash scripts, describe *how* resources are provisioned. Their sequential nature makes them great for procedural tasks like runbooks. 
 
 **Declarative tools**, like ARM Templates and Terraform files, describe *what* resources should be provisioned. This makes deployments repeatable and consistent, and reduces effort required to handle dependencies.
 
