@@ -10,7 +10,7 @@
 
 With Copilot Capacities, organizations can obtain these AI features in a cost-effective manner, and manage feature access and consumption without impacting production data workloads. This blog post demonstrates how you can quickly budget, enable, monitor, and manage Copilot Capacities. 
 
-## What Are Copilot Capacities ?
+## What Are Copilot Capacities?
 
 [Fabric Copilot Capacities](https://learn.microsoft.com/en-us/fabric/enterprise/fabric-copilot-capacity) are Fabric Capacities that centralize the usage and billing of all Copilot in Fabric consumption to a single capacity. This dedicates a pool of Fabric compute resources just to AI tasks, allowing teams to budget their regular Fabric capacities to analytics activities. There are three advantages to doing this:
 
