@@ -8,7 +8,7 @@
 
 [Copilot in Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/fundamentals/copilot-fabric-overview) brings AI capabilities to each phase of the analytics lifecycle, from assisting data engineers building data integrations, to data scientists running ML experiments, to business users asking questions about their data. 
 
-With Copilot Capacities, organizations can obtain these AI features in a cost effective manner, and manage feature access and consumption without impacting production data workloads. This blog post demonstrates how you can quickly budget, enable, monitor, Copilot Capacities. 
+With Copilot Capacities, organizations can obtain these AI features in a cost-effective manner, and manage feature access and consumption without impacting production data workloads. This blog post demonstrates how you can quickly budget, enable, monitor, and manage Copilot Capacities. 
 
 ## What Are Copilot Capacities ?
 
