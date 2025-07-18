@@ -4,6 +4,8 @@
 
 ---
 
+![Copilot in Power BI is one of the experiences you can enable with Copilot Capacities.](../assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/copilot-in-powerbi.png)
+
 ## Introduction
 
 [Copilot in Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/fundamentals/copilot-fabric-overview) brings AI capabilities to each phase of the analytics lifecycle, from assisting data engineers building data integrations, to data scientists running ML experiments, to business users asking questions about their data. 
