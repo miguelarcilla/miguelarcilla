@@ -4,7 +4,7 @@
 
 ---
 
-![GitHub Advanced Security is one of 5 available GitHub Certifications](../assets/images/2025-07-25-GH500-Tips-and-Study-Resources/ghas-badge.png)
+![GitHub Advanced Security is one of 5 available GitHub Certifications](../assets/images/2025-07-25-GH500-Tips-and-Study-Resources/ghas-badge-small.png)
 
 ## Introduction
 
@@ -12,9 +12,29 @@ The GitHub Advanced Security (GH-500) certification tests your knowledge and ski
 
 I've taken GitHub exams in the past and felt relatively confident, given my background in DevOps platforms and tools. GitHub's security platform, however, was quite new to me, making this one of the exams for which I was most nervous. Thankfully I passed on my first try, and in this post, I’ll share some of resources that helped me prepare for GH-500, as well as some tips to get you GitHub Certified.
 
-## Concepts
+## The Basics
+GitHub Advanced Security can be categorized into 3 main products:
+
+### 1. Code Security
+Code Security helps identify and resolve security issues in the code you write. This includes static code analysis via GitHub or 3rd party tools that generate SARIF (Static Analysis Results Interchange Format) files integrated into your workflow, as well as CodeQL, a language + tool that turns your code into a database that can be queried to identify problems.
+
+### 2. Secret Protection
+Secret Protection is concerned with detecting sensitive credentials that may get included in your code. It includes Push Protection to prevent secrets being added to a commit in the first place, as well as scanning, custom patterns, and partner provider support to accelerate invalidating credentials that do make it into the codebase.
+
+### 3. Dependabot
+Dependabot regularly scans your code to identify dependencies like third-party libraries and packages and react to vulnerabilities discovered in those dependencies. By using alerts and pull requests to update your dependency files, teams get proactive and reactive support to ensuring the libraries they use stay up-to-date and secure.
 
 ## Tips
+
+1. The exam includes 70 questions and provides 2+ hours to complete. Take your time, read through each question carefully, and take breaks when needed.
+
+2. You can mark questions for review, allowing you to return to them for a second look and preventing wasting time on a single item. Try not to mark too many, though; when I mark more than 10 questions, I tend to be too tired by the end of the test to review all of them.
+
+3. CodeQL knowledge is not a must, but understanding how CodeQL databases are built, basic query syntax, and integrating code scanning in a GitHub Action is very helpful.
+
+4. Familiarize yourself with GHAS role requirements! Several Advanced Security features are enabled by default in public repositories, and configuration of each feature has various role requirements. Have a good understanding of what settings are available to modify, and the minimum permissions you need to do so.
+
+5. You won't need to enumerate or describe references like CVE and CWE, but you should at least know what they are and to which features they apply.
 
 ## Recommended Study Resources
 ### Microsoft Learn
@@ -36,7 +56,7 @@ Have this one bookmarked, because it contains assessments for almost every Micro
 ### GH Certified community tests
 This is not an official Microsoft tool, but an open source repository of sample questions from GitHub enthusiasts around the world.
 
-**[GitHub Advanced Security Practice Test](https://ghcertified.com/practice_tests/advanced_security/)** - This was really useful, as the questions here most closely reflected what I saw on the test. The only caveat is that there are over 140 questions in the assessment, and (as far as I know) no way to skip ahead or see your progress aside from clicking to the end. Take this if you like testing marathons!
+**[GitHub Advanced Security Practice Test](https://ghcertified.com/practice_tests/)** - This was really useful, as the questions here most closely reflected what I saw on the test. You can configure the number of questions to take, and the GHAS one has up to 116. Take this if you like testing marathons!
 
 ## Conclusion
 
@@ -45,14 +65,3 @@ This is not an official Microsoft tool, but an open source repository of sample 
 Thanks for reading, and Happy Building!
 
 <img src="../assets/images/happy-building.png" alt="Happy Building" width="300"/>
-
-
-Tips and Tricks
-•	Focus on Key Topics:
-•	Prioritize areas like code scanning, secret scanning, and security workflow automation, as these feature heavily on the exam.
-•	Get Hands-On:
-•	Create a test repository and enable advanced security features. Practice configuring code scanning rules, reviewing security alerts, and interpreting scan results.
-•	Time Management:
-•	During the exam, don’t dwell too long on tough questions. Mark them for review and move on—come back if you have time.
-•	Stay Updated:
-•	GitHub regularly updates its security features. Check for recent changes in documentation before your exam date.
