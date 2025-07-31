@@ -1,4 +1,32 @@
 theme: minima
 title: Miguel's Learning in Public Journal
 description: Miguel Arcilla's journal where I document discoveries throughout my technical journey.
-author: miguelarcilla
+author: 
+  name: Miguel Arcilla
+  email: arcilla.miguel@gmail.com
+url: "https://blog.miguelarcilla.com"
+
+# Blog settings
+show_excerpts: true
+paginate: 5
+paginate_path: "/page:num/"
+
+# Social links (optional)
+minima:
+  social_links:
+    github: miguelarcilla
+    linkedin: miguelarcilla
+
+# SEO and metadata
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+  - pages/about.md
+
+# Excerpt settings
+excerpt_separator: "---"
