@@ -26,7 +26,7 @@ PAL is essential for partners aiming to maximize their recognition and rewards w
 
 - **Incentive Eligibility:** Another benefit of becoming a credentialed partner is access to commercial incentives, like the [Azure Accelerate program](https://partner.microsoft.com/en-us/partnership/azure-offerings). This enables partners to receive additional funding directly from Microsoft for delivering proofs of value and production rollouts with customers. By having good PAL practices, you can maximize your recognition and incentive eligibility.
 
-- **Business Insights:** The [Insights page in Microsoft Partner Center](https://partner.microsoft.com/en-us/dashboard/insights/partnerinsights/azureusage) provides detailed analytics and reporting on Partners influenced Azure usage, and can reveal valuable insights on workloads around which new services can be offered.
+- **Business Insights:** The [Insights page in Microsoft Partner Center](https://partner.microsoft.com/en-us/dashboard/insights/partnerinsights/azureusage) provides detailed analytics and reporting on Partner-influenced Azure usage, and can reveal valuable insights on workloads around which new services can be offered.
 
 ![Screenshot of a Partner's influenced Azure usage.](../assets/images/2025-08-08-Primer-Partner-Admin-Link/pal-insights.png)
 
