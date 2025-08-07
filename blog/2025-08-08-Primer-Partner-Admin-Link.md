@@ -42,23 +42,24 @@ Setting up a PAL relationship is a straightforward process, and can be done inte
 
 3. Enter the partner organization’s Partner ID.
 
-4. Save the configuration. The account has now been associated to your partner organization.
+4. Save the configuration. The account has now been associated to your partner organization, and any Azure resources that the account has appropriate access to will start being credited towards your influenced Azure usage.
 
 
 ## PAL Best Practices
 
-- **Principle of Least Privilege:** Only assign the minimum required permissions to partner accounts. Avoid granting excessive rights.
-- **Use Dedicated Accounts:** Create dedicated partner admin accounts for PAL linkage, separate from everyday user accounts, for better auditing and control.
-- **Transparency with Customers:** Clearly explain the purpose and benefits of PAL to customers, and document their approval for compliance.
+- **Choose PAL Projects Wisely:** While it seems like a no-brainer to PAL every project you deliver, you should opt to link projects with long-term management and predictable growth. Some Azure credentials, like Solutions Partner Designation, require a history of year-on-year growth, and a one-month project with high usage can impact your ability to sustain this growth in the future.
+- **Assign Appropriate Permissions:** PAL requires administrative rights to take effect, meaning roles with Owner or Contributor level access will receive credit. Reader roles will **NOT** receive credit.
+- **Principle of Least Privilege:** While administrative rights are required, avoid granting excessive rights. If your role in the customer's environment is managing certain Virtual Machines, then the `Virtual Machine Contributor` role, granted at the appropriate Resource Groups in scope, should be assigned. As customers audit their cloud security posture and identify appropriate scopes for employees and vendors, PAL credits should follow accordingly.
+- **Apply PAL to all eligible accounts:** If your customer has granted multiple vendor emails to you for your services, you can PAL all of them to maximize credit for services in scope. If you use a shared mailbox to log in and provide support, then PAL need only be done once.
+- **Transparency with Customers:** PAL does not introduce security risks outside of permissions explicitly granted to eligible accounts. That said, it is still a good practice to explain the purpose and benefits of PAL to customers, and document their approval for compliance.
 - **Monitor and Review:** Regularly review linked accounts and permissions to ensure ongoing security and correct attribution.
-- **Remove PAL When Needed:** If a partner’s relationship with a customer ends, promptly remove the PAL linkage to avoid misattribution.
+- **Remove PAL When Needed:** If a partner’s relationship with a customer ends, promptly remove the PAL linkage to avoid misattribution. Similar to the first point, having limited control over growth can lead to challenges with credential renewals.
 
 ## Conclusion
 
-Partner Admin Link is a powerful yet simple tool that allows Microsoft partners to receive recognition, incentives, and valuable insights for their work managing customer Azure environments. By setting up PAL correctly and following best practices, partners can ensure accurate attribution, maintain security, and foster trust with customers. For more information, refer to the official Microsoft documentation and stay engaged with the Partner Center for updates.
-Microsoft Partner Center | Learn More About PAL
+Partner Admin Link is one of many useful tools that helps Microsoft partners receive recognition, incentives, and build their competitive edge in a busy marketplace. By setting up PAL correctly and following best practices, partners can ensure accurate attribution, maintain security, and foster trust with customers. 
 
-
+For more information, refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/link-partner-id) and stay engaged with the Partner Center for updates.
 
 Thanks for reading, and Happy Building!
 
