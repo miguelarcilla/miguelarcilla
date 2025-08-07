@@ -14,7 +14,7 @@ Microsoft boasts the largest partner ecosystem in the tech industry, with [over 
 
 ## What is Partner Admin Link?
 
-PAL is a feature in Microsoft Azure that lets partners associate identities (individual user accounts or shared services logins) in customer environments with their Partner ID, in turn recognizing them for managing Azure services on behalf of their customers. This helps partners who specialize in deployments and managed services receive credit for influencing the customer's usage without necessarily being the same partner who bills them for their Azure subscription This is also useful when customers contract multiple service providers to handle different Azure workloads; **each partner gets recognized for the services over which they have an administrative influence**.
+PAL is a feature in Microsoft Azure that lets partners associate identities (individual user accounts or shared services logins) in customer environments with their Partner ID, in turn recognizing them for managing Azure services on behalf of their customers. This helps partners who specialize in deployments and managed services receive credit for influencing the customer's usage without necessarily being the same partner who bills them for their Azure subscription. This is also useful when customers contract multiple service providers to handle different Azure workloads; **each partner gets recognized for the services over which they have an administrative influence**.
 
 Critically, PAL does not grant any additional permissions on top of what is granted to the identity; it simply ties the Entra ID account to the Partner ID for tracking purposes.
 
