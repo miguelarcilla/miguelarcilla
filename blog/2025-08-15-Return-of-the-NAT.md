@@ -55,7 +55,7 @@ After September 30, private subnets will be the default setting for new subnets.
 
 NAT stands for "Network Address Translation", a process where the private IP addresses of your many VMs get translated into a single public address, which external internet services will see. This enables VMs to initiate outbound connections using a static public IP or IP prefix, without exposing them to unsolicited inbound traffic.
 
-This benefits of using a NAT Gateway include:
+The benefits of using a NAT Gateway include:
 
 - **Scalability:** You don't need to manage and budget for dozens of public IP addresses for your VMs; a single IP for the NAT Gateway is all you need to get started. 
 
