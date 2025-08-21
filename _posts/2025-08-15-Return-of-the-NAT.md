@@ -1,10 +1,16 @@
+---
+title: "Return of the NAT: Preparing for the Retirement of Default Outbound Access with Private Subnets and NAT Gateway"
+date: 2025-08-15
+layout: post
+---
+
 # **Return of the NAT**: Preparing for the Retirement of Default Outbound Access with Private Subnets and NAT Gateway
 
 *What's changing in the default behavior of Azure virtual networks outbound connectivity, and how to prepare*
 
 ---
 
-![Microsoft-recommended methods to configuring explicit outbound access. This post will only cover option 3. Image from https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/default-outbound-access](../assets/images/2025-08-15-Return-of-the-NAT/explicit-outbound-options.png)
+![Microsoft-recommended methods to configuring explicit outbound access. This post will only cover option 3. Image from https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/default-outbound-access](/assets/images/2025-08-15-Return-of-the-NAT/explicit-outbound-options.png)
 
 ## Introduction
 
@@ -45,7 +51,7 @@ A Private Subnet is a subnet within an Azure Virtual Network that does not have 
 
 After September 30, private subnets will be the default setting for new subnets. Now that private subnets are GA, you can activate it in existing subnets to simulate the impact to your workloads and predict future behavior. 
 
-![The Private Subnet setting in Azure Portal, with a NAT Gateway setting below.](../assets/images/2025-08-15-Return-of-the-NAT/private-subnets-nat.png)
+![The Private Subnet setting in Azure Portal, with a NAT Gateway setting below.](/assets/images/2025-08-15-Return-of-the-NAT/private-subnets-nat.png)
 
 ---
 
@@ -63,7 +69,7 @@ The benefits of using a NAT Gateway include:
 
 - **Simplicity:** NAT Gateway is easy to deploy and manage, reducing operational overhead
 
-![Comparing instance-level public IP with NAT Gateway. With NAT Gateway you can enable internet access for many more nodes with fewer IP addresses to worry about. Image from https://learn.microsoft.com/en-us/azure/nat-gateway/nat-gateway-design](../assets/images/2025-08-15-Return-of-the-NAT/natgw-vs-vmip.png)
+![Comparing instance-level public IP with NAT Gateway. With NAT Gateway you can enable internet access for many more nodes with fewer IP addresses to worry about. Image from https://learn.microsoft.com/en-us/azure/nat-gateway/nat-gateway-design](/assets/images/2025-08-15-Return-of-the-NAT/natgw-vs-vmip.png)
 
 ### Configuring NAT Gateway for a Private Subnet: Basic Steps
 
@@ -95,4 +101,4 @@ Platform changes to foundational services like Azure compute and networking can 
 
 Thanks for reading, and Happy Building!
 
-<img src="../assets/images/happy-building.png" alt="Happy Building" width="300"/>
+<img src="/assets/images/happy-building.png" alt="Happy Building" width="300"/>

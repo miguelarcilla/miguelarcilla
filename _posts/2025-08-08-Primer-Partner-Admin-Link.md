@@ -1,10 +1,16 @@
+---
+title: "A Primer on Partner Admin Link (PAL) in Microsoft Azure"
+date: 2025-08-08
+layout: post
+---
+
 # A Primer on Partner Admin Link (PAL) in Microsoft Azure
 
 *A guide for Microsoft Partners to maximize recognition for their Azure services*
 
 ---
 
-![Partner Admin Link can be configured in the Microsoft Azure Portal](../assets/images/2025-08-08-Primer-Partner-Admin-Link/pal-config-screenshot.png)
+![Partner Admin Link can be configured in the Microsoft Azure Portal](/assets/images/2025-08-08-Primer-Partner-Admin-Link/pal-config-screenshot.png)
 
 ## Introduction
 
@@ -28,7 +34,7 @@ PAL is essential for partners aiming to maximize their recognition and rewards w
 
 - **Business Insights:** The [Insights page in Microsoft Partner Center](https://partner.microsoft.com/en-us/dashboard/insights/partnerinsights/azureusage) provides detailed analytics and reporting on Partner-influenced Azure usage, and can reveal valuable insights on workloads around which new services can be offered.
 
-![Screenshot of a Partner's influenced Azure usage.](../assets/images/2025-08-08-Primer-Partner-Admin-Link/pal-insights.png)
+![Screenshot of a Partner's influenced Azure usage.](/assets/images/2025-08-08-Primer-Partner-Admin-Link/pal-insights.png)
 
 
 ## How to Establish a PAL Relationship
@@ -38,7 +44,7 @@ Setting up a PAL relationship is a straightforward process, and can be done inte
 1. Log in to the customer’s Azure environment with your user account. This can be a vendor email address, service account, or your usual work email that's been invited to the customer's tenant via [Microsoft Entra B2B](https://learn.microsoft.com/en-us/entra/external-id/user-properties).
 
 2. Navigate to the ["Link to a partner ID page"](https://portal.azure.com/#view/Microsoft_Azure_Billing/ManagementPartnerBlade) or click on the **Settings icon** at the top right, followed by the **Microsoft Partner Network** at the bottom left.
-![Find the link in the Azure Portal](../assets/images/2025-08-08-Primer-Partner-Admin-Link/pal-portal.png)
+![Find the link in the Azure Portal](/assets/images/2025-08-08-Primer-Partner-Admin-Link/pal-portal.png)
 
 3. Enter the partner organization’s Partner ID.
 
@@ -63,4 +69,4 @@ For more information, refer to the [official Microsoft documentation](https://le
 
 Thanks for reading, and Happy Building!
 
-<img src="../assets/images/happy-building.png" alt="Happy Building" width="300"/>
+<img src="/assets/images/happy-building.png" alt="Happy Building" width="300"/>

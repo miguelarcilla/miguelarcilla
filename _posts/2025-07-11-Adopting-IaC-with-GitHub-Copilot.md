@@ -1,3 +1,9 @@
+---
+title: "Adopt an IaC culture with GitHub Copilot"
+date: 2025-07-11
+layout: post
+---
+
 # Adopt an IaC culture with GitHub Copilot
 
 *How my AI Pair Programmer helped me make the shift from imperative to declarative cloud provisioning*
@@ -28,7 +34,7 @@ Let's quickly differentiate the two:
 ### The Input
 For this exercise, I used the [Commercial Marketplace SaaS Accelerator](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator), a solution template for Microsoft Partners managing solutions customers purchase over the [Commercial Marketplace](https://azuremarketplace.microsoft.com/en-US/). In the [`deployment`](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/tree/main/deployment) folder, you'll find a PowerShell script called [`Deploy.ps1`](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/deployment/Deploy.ps1), which takes input parameters before sequentially validating and deploying the solution resources. Its use of verbose updates, derived variables, and conditionals for validation made it a solid candidate for Terraform transformation.
 
-![Snippet of the PowerShell script that provisions Azure resources in the Commercial Marketplace SaaS Accelerator](../assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/powershell_snippet.png)
+![Snippet of the PowerShell script that provisions Azure resources in the Commercial Marketplace SaaS Accelerator](/assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/powershell_snippet.png)
 
 While I do know how to write Terraform files, I did not want to invest hours scouring over hundreds of lines of PowerShell to ensure I caught every nuanced configuration. Instead, I launched the GitHub Copilot chat window in Visual Studio Code and provided this prompt:
 
@@ -38,27 +44,27 @@ While I do know how to write Terraform files, I did not want to invest hours sco
 ### GitHub Copilot's Process: Analysis, Generation, and Refinement
 Before generating any code, GitHub Copilot "prepared the workspace", understanding the context and obtaining references to help it operate. In this case, it reached out to the [GitHub Copilot for Azure extension](https://learn.microsoft.com/en-us/azure/developer/github-copilot-azure/get-started) and requested best practices for Azure Terraform development
 
-![GitHub Copilot consults with Azure extension for best practices](../assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/copilot_azure_plugin.png)
+![GitHub Copilot consults with Azure extension for best practices](/assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/copilot_azure_plugin.png)
 
 It then parsed the PowerShell script, recognizing and listing the Azure resources it understood would be created. 
 
-![GitHub Copilot lists target resources before starting creation](../assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/copilot_resource_inventory.png)
+![GitHub Copilot lists target resources before starting creation](/assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/copilot_resource_inventory.png)
 
 This is where code generation began. It began with the `main.tf` and `variables.tf` files that were explicity requested. As those files were generated, it identified syntax errors and unused variables brought in from PowerShell, and repeatedly checked its work as it cleaned its initial output. 
 
-![GitHub Copilot creates the specified files](../assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/copilot_creates_target_files.png)
+![GitHub Copilot creates the specified files](/assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/copilot_creates_target_files.png)
 
 Knowing that a terraform project generally includes an `outputs.tf` and a `terraform.tfvars` file, it then proactively created those items, and even changed the `tfvars` into a `terraform.tfvars.example` to ensure it wouldn't accidentally be used by a new user. To complete its work, it created a `README.md` that documents the code, and ran a final `terraform validate` command to check if everything worked as expected.
 
-![GitHub Copilot creates supplementary files](../assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/copilot_creates_additional_files.png)
+![GitHub Copilot creates supplementary files](/assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/copilot_creates_additional_files.png)
 
 Leaving me with a generated output you can see below *(note how subnet delegation, service endpoints, and even programmatically set app settings are preserved)*. Of course, as the output was produced by a "Copilot", I remained in charge of final checks, validations, and test deployment. 
 
-![Generated Terraform output](../assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/terraform_output.png)
+![Generated Terraform output](/assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/terraform_output.png)
 
 I ultimately applied a few code changes to clean things up, but the end result was **several hours saved** and a deployment consistent with the PowerShell output (`miguels-company-marketplace` was generated by PowerShell, and `miguels-mkt-tf` was generated by Terraform).
 
-![Final Azure output, with PowerShell resources on the left and Terraform resources on the right](../assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/final_azure_output.png)
+![Final Azure output, with PowerShell resources on the left and Terraform resources on the right](/assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/final_azure_output.png)
 
 The next step is to explore the [`null_resource`](https://registry.terraform.io/providers/hashicorp/null/latest/docs) provider for SQL provisioning and code deployment, or take it a step further by moving those instructions into a GitHub Action.
 
@@ -69,4 +75,4 @@ Through its detailed understanding of imperative deployment scripts and ability 
 
 Thanks for reading, and Happy Building!
 
-<img src="../assets/images/happy-building.png" alt="Happy Building" width="300"/>
+<img src="/assets/images/happy-building.png" alt="Happy Building" width="300"/>

@@ -7,7 +7,9 @@ I'm Miguel, and this is where I document my discoveries throughout my technical 
 
 ## Recent Posts
 
-<!-- Jekyll will automatically list your recent posts here -->
+{% for post in site.posts limit:5 %}
+- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
+{% endfor %}
 
 ## What You'll Find Here
 

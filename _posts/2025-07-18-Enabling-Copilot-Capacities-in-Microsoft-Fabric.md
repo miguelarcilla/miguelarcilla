@@ -1,10 +1,16 @@
+---
+title: "Enabling Copilot Capacities in Microsoft Fabric: A Quick Guide"
+date: 2025-07-18
+layout: post
+---
+
 # Enabling Copilot Capacities in Microsoft Fabric: A Quick Guide
 
 *Enrich your organizational data with AI with a lower cost to entry*
 
 ---
 
-![Copilot in Power BI is one of the experiences you can enable with Copilot Capacities.](../assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/copilot-in-powerbi.png)
+![Copilot in Power BI is one of the experiences you can enable with Copilot Capacities.](/assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/copilot-in-powerbi.png)
 
 ## Introduction
 
@@ -26,22 +32,22 @@ With Copilot Capacities, organizations can obtain these AI features in a cost-ef
 As a Fabric Administrator, follow these steps to enable Copilot Capacity in your Microsoft Fabric environment:
 
 1. **Determine your Fabric home region**: This can be found in the Fabric UI (top right question mark >> About Fabric)
-![Accessing the Fabric Home Region](../assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/access-fabric-home-region.png)
-![Details including Fabric Home Region](../assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/fabric-home-region.png)
+![Accessing the Fabric Home Region](/assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/access-fabric-home-region.png)
+![Details including Fabric Home Region](/assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/fabric-home-region.png)
 
 2. **Provision a Fabric Capacity**: From the [Azure Portal](https://portal.azure.com/#view/Microsoft_Azure_Analytics/CreateCapacityBlade), provision a Fabric Capacity of any size, ensuring it is deployed in the same region as your Fabric home region.
 
 3. **Access the Fabric Capacity in Fabric Portal**: Navigate to the Microsoft [Fabric Admin Portal](https://app.fabric.microsoft.com/admin-portal/tenantSettings?experience=fabric-developer) and select Capacity Settings >> Fabric Capacity. Click on your created Fabric Capacity.
-![Fabric Portal showing the provisioned capacity](../assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/fabric-portal.png)
+![Fabric Portal showing the provisioned capacity](/assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/fabric-portal.png)
 
 4. **Assign the Copilot Capacity**: Scroll to the *"Copilot Capacity"* option and activate the setting. Ensure team members have the necessary permissions to use Copilot features.
-![Adding users to use Copilot Capacity](../assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/fabric-copilot-capacity.png)
+![Adding users to use Copilot Capacity](/assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/fabric-copilot-capacity.png)
 
 ## Monitoring Copilot Capacity Usage
 
 You can use the [**Capacity Metrics app**](https://learn.microsoft.com/en-us/fabric/enterprise/metrics-app-install?tabs=1st) to review usage of all your Fabric Capacities, including the Copilot Capacity.
 
-![Fabric Capacity Metrics App showing Copilot usage](../assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/fabric-capacity-metrics-app.png)
+![Fabric Capacity Metrics App showing Copilot usage](/assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/fabric-capacity-metrics-app.png)
 
 ### Tips for Proper Capacity Sizing
 
@@ -58,4 +64,4 @@ Copilot Capacities in Microsoft Fabric lower the barrier to entry for AI, making
 
 Thanks for reading, and Happy Building!
 
-<img src="../assets/images/happy-building.png" alt="Happy Building" width="300"/>
+<img src="/assets/images/happy-building.png" alt="Happy Building" width="300"/>
