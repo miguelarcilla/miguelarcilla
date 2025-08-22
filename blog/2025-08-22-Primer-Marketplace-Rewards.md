@@ -56,12 +56,6 @@ For the current fiscal year (FY26), Microsoft has introduced several updates to 
 
 Here's the quickest way to get started with Microsoft Marketplace Rewards:
 
-1.	**Become a Partner:** If you’re not yet a Microsoft Partner, join the Microsoft AI Cloud Partner Program by enrolling in [Partner Center](https://partner.microsoft.com/en-us/dashboard/account/v3/enrollment/introduction/partnership) or by signing up for the [ISV Success Program](https://www.microsoft.com/en-us/isv/enroll/signup). 
-
-2.	**Publish Your Solution:** List your app or service on Microsoft AppSource or Azure Marketplace. For a great starting point to listing your first Marketplace offering, check out the [Mastering the Marketplace Series](https://microsoft.github.io/Mastering-the-Marketplace/).
-
-3.	**Set up a Marketing Contact:** Ensure you have added at least one [Marketing Contact in Partner Center](https://partner.microsoft.com/dashboard/v2/benefits/marketing); these contacts will receive communications about your Marketplace Rewards.
-
 1. **Become a Partner:** If you’re not yet a Microsoft Partner, join the Microsoft AI Cloud Partner Program by enrolling in [Partner Center](https://partner.microsoft.com/en-us/dashboard/account/v3/enrollment/introduction/partnership) or by signing up for the [ISV Success Program](https://www.microsoft.com/en-us/isv/enroll/signup). 
 
 2. **Publish Your Solution:** List your app or service on Microsoft AppSource or Azure Marketplace. For a great starting point to listing your first Marketplace offering, check out the [Mastering the Marketplace Series](https://microsoft.github.io/Mastering-the-Marketplace/).
