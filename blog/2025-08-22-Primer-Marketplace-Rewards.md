@@ -10,7 +10,7 @@
 
 Microsoft offers industry-leading platforms for partners to build and sell value-added IP, and with rapidly growing commercial marketplaces in [Azure Marketplace](https://azuremarketplace.microsoft.com/en-US/) and [AppSource](https://appsource.microsoft.com/en-us/), it's easier than ever for users to discover, purchase, and activate solutions that build on Azure, Microsoft 365, Dynamics 365, and even Copilot!
 
-[Marketplace Rewards](https://www.microsoft.com/en-au/isv/Marketplace-Rewards?msockid=199a3d1800c5654634e3293d01a064f8) is an incentive program that provides Microsoft partners selling through the marketplace with a suite of perks that accelerate growth, close more deals, and encourage consistent innovation and co-selling.
+[Marketplace Rewards](https://www.microsoft.com/en-au/isv/Marketplace-Rewards) is an incentive program that provides Microsoft partners selling through the marketplace with a suite of perks that accelerate growth, close more deals, and encourage consistent innovation and co-selling.
 
 In this post, we'll discuss the benefits, what's new, and how to get started with Marketplace Rewards.
 
