@@ -10,7 +10,7 @@
 
 Microsoft offers industry-leading platforms for partners to build and sell value-added IP, and with rapidly growing commercial marketplaces in [Azure Marketplace](https://azuremarketplace.microsoft.com/en-US/) and [AppSource](https://appsource.microsoft.com/en-us/), it's easier than ever for users to discover, purchase, and activate solutions that build on Azure, Microsoft 365, Dynamics 365, and even Copilot!
 
-[Marketplace Rewards](https://www.microsoft.com/en-au/isv/Marketplace-Rewards) is an incentive program that provides Microsoft partners selling through the marketplace with a suite of perks that accelerate growth, close more deals, and encourage consistent innovation and co-selling.
+[Marketplace Rewards](https://www.microsoft.com/en-us/isv/Marketplace-Rewards) is an incentive program that provides Microsoft partners selling through the marketplace with a suite of perks that accelerate growth, close more deals, and encourage consistent innovation and co-selling.
 
 In this post, we'll discuss the benefits, what's new, and how to get started with Marketplace Rewards.
 
@@ -56,7 +56,7 @@ For the current fiscal year (FY26), Microsoft has introduced several updates to 
 
 Here's the quickest way to get started with Microsoft Marketplace Rewards:
 
-1.	**Become a Partner:** If you’re not yet a Microsoft Partner, join the Microsoft AI Cloud Partner Program by enrolling [here](https://partner.microsoft.com/en-us/dashboard/account/v3/enrollment/introduction/partnership) or by signing up for the [ISV Success Program](https://www.microsoft.com/en-us/isv/enroll/signup). 
+1.	**Become a Partner:** If you’re not yet a Microsoft Partner, join the Microsoft AI Cloud Partner Program by enrolling in [Partner Center](https://partner.microsoft.com/en-us/dashboard/account/v3/enrollment/introduction/partnership) or by signing up for the [ISV Success Program](https://www.microsoft.com/en-us/isv/enroll/signup). 
 
 2.	**Publish Your Solution:** List your app or service on Microsoft AppSource or Azure Marketplace. For a great starting point to listing your first Marketplace offering, check out the [Mastering the Marketplace Series](https://microsoft.github.io/Mastering-the-Marketplace/).
 
