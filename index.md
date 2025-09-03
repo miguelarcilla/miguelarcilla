@@ -8,9 +8,7 @@ I'm Miguel, and this is where I document my discoveries throughout my technical 
 ## Featured Posts
 
 <div class="featured-posts">
-  {% assign featured_posts = site.posts | where: "featured", true | limit: 3 %}
-  {% if featured_posts.size == 0 %}
-    {% assign featured_posts = site.posts | limit: 3 %}
+    {% assign featured_posts = site.posts | where_exp: "post", "post.featured != false" | limit: 3 %}
   {% endif %}
   
   {% for post in featured_posts %}
