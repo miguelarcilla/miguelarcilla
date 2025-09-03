@@ -1,30 +1,80 @@
+# Site settings
 title: Miguel's Learning in Public Journal
 email: arcilla.miguel@gmail.com
-description: Miguel Arcilla's journal where I document discoveries throughout my technical journey.
-author: miguelarcilla
-github_username:  miguelarcilla
+description: >- # this means to ignore newlines until "baseurl:"
+  Miguel Arcilla's journal where I document discoveries throughout my technical journey.
+  From cloud infrastructure to AI tools, I share practical insights and hands-on experiences.
+
+baseurl: ""
+
+# Author information
+author:
+  name: Miguel Arcilla
+  email: arcilla.miguel@gmail.com
+  bio: "Technology professional passionate about cloud infrastructure, DevOps, and AI-powered development tools."
 
 # Build settings
+markdown: kramdown
+highlighter: rouge
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# # Pagination
+# paginate: 5
+# paginate_path: "/page:num/"
+
+# Blog settings
+show_excerpts: true
+excerpt_separator: "<!--more-->"
+
+# Minima theme customization
+minima:
+  skin: classic
+  social_links:
+    github: miguelarcilla
+    linkedin: miguelarcilla
+  date_format: "%B %d, %Y"
+  show_excerpts: true
+
+# Navigation
+header_pages:
+  - index.md
+
+# SEO and metadata
+lang: en-US
+
+# GitHub Pages safe plugins only
+safe: true
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - CNAME
+
+# Custom variables for your blog
+blog:
+  categories:
+    - "Infrastructure"
+    - "AI & Development Tools"
+    - "Certifications"
+    - "DevOps & Security"
+    - "Azure"
+    - "GitHub Copilot"
+  
+# Reading time calculation
+reading_time: true
