@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Fluent UI Web Components CDN -->
+  <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
+  <link rel="stylesheet" href="/assets/css/fluent.css">
+</head>
+<body>
+  <nav>
+    <a href="{{ 'https://miguelarcilla.com' | absolute_url }}">Home</a>
+    <a href="{{ 'https://miguelarcilla.com/about' | absolute_url }}">About</a>
+    <a href="{{ 'https://miguelarcilla.com/contact' | absolute_url }}">Contact</a>
+    <a href="{{ '/' | relative_url }}">Blog</a>
+  </nav>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    &copy; {{ site.time | date: '%Y' }} Miguel Arcilla
+  </footer>
+</body>
+</html>
