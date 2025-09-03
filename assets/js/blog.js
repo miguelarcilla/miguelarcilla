@@ -12,7 +12,13 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Filter posts
             postCards.forEach(card => {
-                if (category === 'all' || card.dataset.categories.includes(category)) {
+                if (
+                    category === 'all' ||
+                    card.dataset.categories
+                        .split(',')
+                        .map(c => c.trim())
+                        .includes(category)
+                ) {
                     card.style.display = 'block';
                     card.style.animation = 'fadeIn 0.3s ease';
                 } else {
