@@ -4,7 +4,7 @@
 
 ---
 
-![GitHub Advanced Security is one of 5 available GitHub Certifications](../assets/images/2025-07-25-GH500-Tips-and-Study-Resources/ghas-badge-small.png)
+![GitHub Advanced Security is one of 5 available GitHub Certifications](/assets/images/2025-07-25-GH500-Tips-and-Study-Resources/ghas-badge-small.png)
 
 ## Introduction
 
@@ -64,4 +64,4 @@ This is not an official Microsoft tool, but an open source repository of sample 
 
 Thanks for reading, and Happy Building!
 
-<img src="../assets/images/happy-building.png" alt="Happy Building" width="300"/>
+![Happy Building](/assets/images/happy-building.png)

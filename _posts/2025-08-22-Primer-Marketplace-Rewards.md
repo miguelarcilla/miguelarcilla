@@ -4,7 +4,7 @@
 
 ---
 
-![Marketplace Rewards are available as soon as you list on the marketplace](../assets/images/2025-08-22-Primer-Marketplace-Rewards/rewards-tiers.png)
+![Marketplace Rewards are available as soon as you list on the marketplace](/assets/images/2025-08-22-Primer-Marketplace-Rewards/rewards-tiers.png)
 
 ## Introduction
 
@@ -22,15 +22,15 @@ In this post, we'll discuss the benefits, what's new, and how to get started wit
 
 *Contactable listings* (solutions advertised, but not purchased, through the marketplace) gain 6 months of marketing-related benefits, including mentions in the Commercial marketplace blog, access to a self-serve marketing toolkit, and listing optimization guidance. While it is a good start, and helps achieve baseline [Co-Sell Ready requirements](https://learn.microsoft.com/en-us/partner-center/referrals/co-sell-requirements#requirements-for-co-sell-ready-status) (a must when working with Microsoft field sales teams), it is just the tip of the iceberg.
 
-![Contactable listings are immediately eligible for benefits to help you stand out in the marketplace](../assets/images/2025-08-22-Primer-Marketplace-Rewards/contactable-benefits.png)
+![Contactable listings are immediately eligible for benefits to help you stand out in the marketplace](/assets/images/2025-08-22-Primer-Marketplace-Rewards/contactable-benefits.png)
 
 *Transactable listings* are where the real fun begins.
 
-![Anakin Skywalker describing transactable marketplace listings](../assets/images/2025-08-22-Primer-Marketplace-Rewards/transactable-offerings-begin.png)
+![Anakin Skywalker describing transactable marketplace listings](/assets/images/2025-08-22-Primer-Marketplace-Rewards/transactable-offerings-begin.png)
 
 With transactable offers, partners gain access to seriously scalable perks, including Azure sponsorships for POCs and trial sandboxes, solution spotlights highlighting your offer internally to Microsoft field sales, and elevated publicity with featured blog posts and executive endorsements.
 
-![Unique transactable benefits unlock with your first $500 sold through the Marketplace](../assets/images/2025-08-22-Primer-Marketplace-Rewards/transactable-benefits.png)
+![Unique transactable benefits unlock with your first $500 sold through the Marketplace](/assets/images/2025-08-22-Primer-Marketplace-Rewards/transactable-benefits.png)
 
 ---
 
@@ -52,7 +52,7 @@ For the current fiscal year (FY26), Microsoft has introduced several updates to 
 
 ## How to enroll in Marketplace Rewards
 
-![Getting into Marketplace Rewards is as easy as publishing an offer](../assets/images/2025-08-22-Primer-Marketplace-Rewards/onboarding-steps.png)
+![Getting into Marketplace Rewards is as easy as publishing an offer](/assets/images/2025-08-22-Primer-Marketplace-Rewards/onboarding-steps.png)
 
 Here's the quickest way to get started with Microsoft Marketplace Rewards:
 
@@ -64,7 +64,7 @@ Here's the quickest way to get started with Microsoft Marketplace Rewards:
 
 4. **Activate Your Benefits:** Once eligible, navigate to the [Marketplace Rewards Toolbox](https://marketing.partner.microsoft.com/marketplace-rewards) to access and activate your Marketplace Rewards benefits.
 
-![Marketplace Rewards Toolbox centralizes available, actionable, and activated benefits](../assets/images/2025-08-22-Primer-Marketplace-Rewards/toolbox-benefits.jpg)
+![Marketplace Rewards Toolbox centralizes available, actionable, and activated benefits](/assets/images/2025-08-22-Primer-Marketplace-Rewards/toolbox-benefits.jpg)
 
 Check out [this link](https://learn.microsoft.com/en-us/partner-center/marketplace-offers/marketplace-rewards#your-steps-to-get-started-are-easy) for more detailed instructions.
 
@@ -82,4 +82,4 @@ Stay up-to-date with your Marketplace Rewards enrollment status in [Partner Cent
 
 Thanks for reading, and Happy Building!
 
-<img src="../assets/images/happy-building.png" alt="Happy Building" width="300"/>
+![Happy Building](/assets/images/happy-building.png)
