@@ -80,7 +80,7 @@ Cognitive Services was eventually renamed to **Azure AI Services**, and a new Az
 
 Now that we have the context and understand the features that may make Foundry projects your best way forward, we need to plan for migration.
 
-Fortunately, since an AI Hub already includes the creation of a Foundry resource in its provisioning, migration can be as simple as creating your hub-based projects in the Foundry resource and continuing from there. However, there may be some external connections (Azure AI Search, external DBs, etc.) that should be recreated; you can (review the full guide in the official Microsoft docs)[https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/migrate-project?tabs=azure-ai-foundry].
+Fortunately, since an AI Hub already includes the creation of a Foundry resource in its provisioning, migration can be as simple as creating your hub-based projects in the Foundry resource and continuing from there. However, there may be some external connections (Azure AI Search, external DBs, etc.) that should be recreated; you can [review the full guide in the official Microsoft docs](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/migrate-project?tabs=azure-ai-foundry).
 
 If you're just getting started with Azure AI Foundry, you can alternatively [consult this guide to help plan for your networking, security, and user access requirements](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/planning).
 
