@@ -3,17 +3,10 @@ layout: home
 title: Welcome to Miguel's Learning in Public Journal
 ---
 
-I'm Miguel, and this is where I document my discoveries throughout my technical journey. From cloud infrastructure to AI tools, I share practical insights and hands-on experiences.
-
-## Featured Posts
+## Blog Posts
 
 <div class="featured-posts">
-  {% assign featured_posts = site.posts | where: "featured", true | limit: 3 %}
-  {% if featured_posts.size == 0 %}
-    {% assign featured_posts = site.posts | limit: 3 %}
-  {% endif %}
-  
-  {% for post in featured_posts %}
+  {%- for post in site.posts -%}
     <article class="featured-post">
       {% if post.image %}
         <div class="featured-image">
@@ -23,11 +16,11 @@ I'm Miguel, and this is where I document my discoveries throughout my technical 
       <div class="featured-content">
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
         <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
-        <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+        <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
         <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
       </div>
     </article>
-  {% endfor %}
+  {%- endfor -%}
 </div>
 
 ## What You'll Find Here

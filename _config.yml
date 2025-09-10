@@ -27,10 +27,6 @@ plugins:
 # paginate: 5
 # paginate_path: "/page:num/"
 
-# Blog settings
-show_excerpts: true
-excerpt_separator: "<!--more-->"
-
 # Minima theme customization
 minima:
   skin: classic
@@ -38,8 +34,7 @@ minima:
     github: miguelarcilla
     linkedin: miguelarcilla
   date_format: "%B %d, %Y"
-  show_excerpts: true
-
+  
 # Navigation
 header_pages:
   - index.md
