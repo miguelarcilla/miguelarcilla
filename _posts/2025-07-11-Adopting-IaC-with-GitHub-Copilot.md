@@ -5,8 +5,6 @@ layout: post
 image: /assets/images/2025-07-11-Adopting-IaC-with-GitHub-Copilot/final_azure_output.png
 ---
 
-# Adopt an IaC culture with GitHub Copilot
-
 *How my AI Pair Programmer helped me make the shift from imperative to declarative cloud provisioning*
 
 ---

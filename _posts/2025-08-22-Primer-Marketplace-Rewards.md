@@ -5,8 +5,6 @@ layout: post
 image: /assets/images/2025-08-22-Primer-Marketplace-Rewards/rewards-tiers.png
 ---
 
-# A Primer on Microsoft Marketplace Rewards
-
 *A guide for Microsoft Partners to activate, access, and grow benefits from maximizing Microsoft's Commercial Marketplace*
 
 ---

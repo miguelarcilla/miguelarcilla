@@ -5,8 +5,6 @@ layout: post
 image: /assets/images/2025-08-15-Return-of-the-NAT/explicit-outbound-options.png
 ---
 
-# **Return of the NAT**: Preparing for the Retirement of Default Outbound Access with Private Subnets and NAT Gateway
-
 *What's changing in the default behavior of Azure virtual networks outbound connectivity, and how to prepare*
 
 ---

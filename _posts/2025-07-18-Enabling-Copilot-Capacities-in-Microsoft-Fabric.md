@@ -5,8 +5,6 @@ layout: post
 image: /assets/images/2025-07-18-Enabling-Copilot-Capacities-in-Microsoft-Fabric/copilot-in-powerbi.png
 ---
 
-# Enabling Copilot Capacities in Microsoft Fabric: A Quick Guide
-
 *Enrich your organizational data with AI with a lower cost to entry*
 
 ---

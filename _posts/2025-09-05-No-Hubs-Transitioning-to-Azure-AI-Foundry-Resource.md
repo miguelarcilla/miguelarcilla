@@ -5,8 +5,6 @@ layout: post
 image: /assets/images/2025-09-05-No-Hubs-Transitioning-to-Azure-AI-Foundry-Resource/compare-project-structure.png
 ---
 
-# **(I Don't Want) No Hubs**: Transitioning from Azure AI Hubs to the new Azure AI Foundry resource
-
 *Demystifying the new experience for Azure AI Hub and Azure AI Services users*
 
 ---
