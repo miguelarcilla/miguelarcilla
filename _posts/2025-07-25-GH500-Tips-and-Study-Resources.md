@@ -1,4 +1,9 @@
-# The GitHub Advanced Security (GH-500) Certification Exam: Tips & Study Resources
+---
+title: "The GitHub Advanced Security (GH-500) Certification Exam: Tips & Study Resources"
+date: 2025-07-25
+layout: post
+image: /assets/images/2025-07-25-GH500-Tips-and-Study-Resources/ghas-badge-small.png
+---
 
 *Supplemental study resources to get you GitHub Certified*
 
