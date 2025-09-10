@@ -1,3 +1,10 @@
+---
+title: "A Primer on Partner Admin Link (PAL) in Microsoft Azure"
+date: 2025-08-08
+layout: post
+image: /assets/images/2025-08-08-Primer-Partner-Admin-Link/pal-config-screenshot.png
+---
+
 # A Primer on Partner Admin Link (PAL) in Microsoft Azure
 
 *A guide for Microsoft Partners to maximize recognition for their Azure services*
