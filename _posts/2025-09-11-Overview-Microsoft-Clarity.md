@@ -13,7 +13,7 @@ image: /assets/images/2025-09-11-Overview-Microsoft-Clarity/clarity-dashboard.pn
 
 ## Introduction
 
-Monitoring modern web and mobile apps to drive engagement and optimize performance can be a complex task, often employing a blend of front-end session-tracking (ex: [Google Analytics](https://marketingplatform.google.com/about/analytics/)) and back-end observability (ex: [Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)) tools to make things work. But if you've ever stared at a Google Analytics dashboard wondering *why* users are bouncing or where they’re getting stuck, [Microsoft Clarity](https://clarity.microsoft.com/) might be the missing piece. 
+Monitoring modern web and mobile apps to drive engagement and optimize performance can be a complex task. It often requires a blend of front-end session-tracking (ex: [Google Analytics](https://marketingplatform.google.com/about/analytics/)) and back-end observability (ex: [Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)) tools to make things work. But if you've ever stared at a Google Analytics dashboard wondering *why* users are bouncing or where they’re getting stuck, [Microsoft Clarity](https://clarity.microsoft.com/) might be the missing piece. 
 
 In this post, we will walk through the key features of Microsoft Clarity and how you can get up and running with it in minutes.
 
