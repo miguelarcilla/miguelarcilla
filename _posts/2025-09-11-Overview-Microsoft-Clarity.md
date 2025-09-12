@@ -58,7 +58,7 @@ If you work with platforms like Wordpress, SharePoint, or SquareSpace, Clarity h
 
 ![Clarity provides guides to install on multiple platforms, including SharePoint](/assets/images/2025-09-11-Overview-Microsoft-Clarity/clarity-install-sharepoint.png)
 
-And for the vibe coders out there, Clarity even provides a [default prompt](https://learn.microsoft.com/en-us/clarity/setup-and-installation/setup-clarity-for-vibe-coding-platforms) you can insert to ensure your AI-constructed websites have the right tracking in place!
+And for developers using AI coding assistants, Clarity even provides a [default prompt](https://learn.microsoft.com/en-us/clarity/setup-and-installation/setup-clarity-for-vibe-coding-platforms) you can insert to ensure your AI-constructed websites have the right tracking in place!
 
 `add Microsoft Clarity with project id as **YOUR_CODE_HERE**`
 
