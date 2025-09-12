@@ -38,7 +38,7 @@ Clarity empowers digital marketers, UX designers, product managers, and develope
 
 ## My Initial Experience with Clarity
 
-Shortly before writing this post, I took some time to finally clean up my blog website, [blog.miguelarcilla.com](https://blog.miguelarcilla.com), and installed Clarity before advertising my [MLP](https://productschool.com/blog/product-strategy/minimum-lovable-product), interested to see how a "campaign" like this would be tracked.
+Shortly before writing this post, I took some time to finally clean up my blog website, [blog.miguelarcilla.com](https://blog.miguelarcilla.com), and installed Clarity. I did this before advertising my [MLP](https://productschool.com/blog/product-strategy/minimum-lovable-product) because I was interested to see how a "campaign" like this would be tracked.
 
 ### Installation
 
