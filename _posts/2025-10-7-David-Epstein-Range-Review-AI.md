@@ -2,7 +2,7 @@
 title: "David Epstein's *Range*: Key Takeaways and how AI can help you thrive as a Generalist"
 date: 2025-10-7
 layout: post
-image: /assets/images/2025-09-11-Overview-Microsoft-Clarity/clarity-dashboard.png
+image: /assets/images/2025-10-7-David-Epstein-Range-Review-AI/range-cover.png
 ---
 
 *Reflections on how embracing range can forge career pathways in the era of AI*
