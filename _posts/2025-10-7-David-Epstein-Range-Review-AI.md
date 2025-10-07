@@ -13,7 +13,7 @@ image: /assets/images/2025-09-11-Overview-Microsoft-Clarity/clarity-dashboard.pn
 
 ## Introduction
 
-David Epstein’s [*Range: Why Generalists Triumph in a Specialized World*](https://davidepstein.com/range/) challenges the conventional wisdom that specialization is the key to success. While prodigies like Tiger Woods set the example of choosing a field early and focusing exclusively and intensely on becoming the best, such success stories are few and far between, and trying to follow the same model can lead to pressuring oneself to pursue specializations before trulying know who we are.
+David Epstein’s [*Range: Why Generalists Triumph in a Specialized World*](https://davidepstein.com/range/) challenges the conventional wisdom that specialization is the key to success. While prodigies like Tiger Woods set the example of choosing a field early and focusing exclusively and intensely on becoming the best, such success stories are few and far between, and trying to follow the same model can lead to pressuring oneself to pursue specializations before we truly know who we are.
 
 Instead, adopting a ["Roger Federer" model](https://www.gq-magazine.co.uk/sport/article/range-david-epstein), curiously dabbling in multiple fields (in his case, sports) to find where one's interests and capabilities intersect, can feel like lost time during the exploration phase, but often results in accelerated growth and progress once that fit is realized.
 
