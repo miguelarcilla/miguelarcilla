@@ -166,15 +166,15 @@ az keyvault create --name "myNewVault" \
 ```
 
 **ARM Template:**
+In ARM templates using API version `2026-02-01`, explicitly set `enableRbacAuthorization` to `false` to keep using access policies.
 ```json
 {
   "type": "Microsoft.KeyVault/vaults",
   "apiVersion": "2026-02-01",
   "name": "[parameters('keyVaultName')]",
   "properties": {
-    "enableRbacAuthorization": false, // Explicit setting required
+    "enableRbacAuthorization": false,
     "accessPolicies": []
-    // ... other properties
   }
 }
 ```
