@@ -1,5 +1,6 @@
 ---
 title: "Avoid breaking changes in Azure Key Vault - Adopting API Version 2026-02-01 and preparing for an Azure RBAC default"
+layout: post
 date: 2026-02-21
 categories: [Azure, Security, Key Vault, RBAC, Cloud]
 tags: [Azure Key Vault, RBAC, Access Control, Breaking Changes, Migration, Security, API Versioning]
